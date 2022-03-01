@@ -19,7 +19,6 @@ jobs:
         env:
           MOGUDING_DEVICE: ${{ secrets.DEVICE }}
           MOGUDING_PHONE: ${{ secrets.PHONE }}
-          MOGUDING_PASSWORD: ${{ secrets.PASSWORD }}
           MOGUDING_PROVINCE: ${{ secrets.PROVINCE }}
           MOGUDING_CITY: ${{ secrets.CITY }}
           MOGUDING_ADDRESS: ${{ secrets.ADDRESS }}
